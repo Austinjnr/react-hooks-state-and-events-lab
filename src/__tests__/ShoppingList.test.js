@@ -32,3 +32,4 @@ test("displays only items that match the selected category", () => {
 
   expect(container.querySelector(".Items").children).toHaveLength(1);
 });
+
